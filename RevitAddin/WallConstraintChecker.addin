@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Check Wall Constraints</Text>
+    <Description>Checks if any walls extend beyond their constraint levels</Description>
+    <Assembly>WallConstraintChecker\WallConstraintChecker.dll</Assembly>
+    <FullClassName>WallConstraintChecker.CheckWallConstraintsCommand</FullClassName>
+    <ClientId>011CUMYf-J483-4fCy-7iou-iwXXWALLCHCK</ClientId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Wall Constraint Checker Add-in</VendorDescription>
+  </AddIn>
+</RevitAddIns>
